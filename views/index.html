@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css"/>
+        <script type="text/javascript" src="/scripts/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="/scripts/client.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading"><h4>Messages<span id="message-count" class="badge"></span></h4></div>
+                        <button id="message-refresh" type="button" class="btn btn-primary btn-block">Refresh</button>
+                        <div class="panel-body">
+                            <div id="message-list" class="list-group">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Create new message</div>
+                        <div class="panel-body">
+                            <textarea id="message-new" class="form-control" placeholder="Enter your message here"></textarea>
+                            <button id="message-submit" type="button" class="btn btn-primary btn-block">Submit</button>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="panel panel-default">
+                                <div id="message-timestamp" class="panel-heading"></div>
+                                <div class="panel-body">
+                                    <p id="message-content" class="lead"></p>
+                                </div>
+                                <div id="message-palindrome" class="panel-footer"></div>
+                            </div>
+                            <button id="message-delete" type="button" class="btn btn-danger btn-block" disabled="disabled">Delete</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
