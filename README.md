@@ -16,6 +16,12 @@ This project was built with `node.js v8.9.1` and `npm v5.5.1`
 
 ## Implementation Description
 
+The web service is made with [node.js](https://nodejs.org/en/) and the [Express](https://expressjs.com/) framework. Messages are stored in a local SQLite database file using [sqlite3](https://www.npmjs.com/package/sqlite3) and the object-relational mapper [Sequelize](http://docs.sequelizejs.com/) to convert models into database objects.
+
+The automated tests are powered by [Mocha](https://mochajs.org/).
+
+The user interface is built using [jQuery](https://jquery.com/) to make REST API calls and styled using [Bootstrap 3.3](https://getbootstrap.com/docs/3.3/).
+
 ## Installing and Running the Application
 
 1. Install [node.js](https://nodejs.org/en/) for your platform.
