@@ -7,6 +7,7 @@ This project was built with `node.js v8.9.1` and `npm v5.5.1`
 ## Table of Contents
 * [Implementation Description](#implementation-description)
 * [Installing and Running the Application](#installing-and-running-the-application)
+* [Use Case Sequence Diagrams](#use-case-sequence-diagrams)
 * [Running Automated Tests](#running-automated-tests)
 * [REST API Documentation](#rest-api-documentation)
   * [Base URL](#base-url)
@@ -21,6 +22,12 @@ The web service is made with [node.js](https://nodejs.org/en/) and the [Express]
 The automated tests are powered by [Mocha](https://mochajs.org/).
 
 The user interface is built using [jQuery](https://jquery.com/) to make REST API calls and styled using [Bootstrap 3.3](https://getbootstrap.com/docs/3.3/).
+
+## Use Case Sequence Diagrams
+![Submit new Message sequence diagram](/diagrams/create.jpg)
+![Get Message list sequence diagram](/diagrams/list.jpg)
+![Get Message details sequence diagram](/diagrams/details.jpg)
+![Delete Message sequence diagram](/diagrams/delete.jpg)
 
 ## Installing and Running the Application
 
